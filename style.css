@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Walter+Turncoat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background: darkslategray;
+    /* width: 100%; */
+}
+
+#breed-form {
+    text-align: center;
+    /* width: 200px; */
+    margin: 20px auto;
+    padding: 0 10px;
+}
+#breed-form fieldset {
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 10px;
+    background: slategray;
+    border: 2px solid greenyellow;
+    box-shadow: 0px 3px 3px 3px;
+    min-width: 250px;
+}
+#breed-form legend {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    background: greenyellow;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+#breed-form label {
+    color: white;
+}
+#breed {
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 0 10px;
+    color: gray;
+}
+#breed-form button {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: none;
+    background: greenyellow;
+}
+#breed-form button:hover{
+    background: yellow;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    /* border: 2px solid black; */
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.picture {
+    flex: 1;
+    /* min-height: 150px; */
+    /* max-width: 100%; */
+    border-radius: 10px;
+    margin: 10px;
+    border: 2px solid greenyellow;
+    box-shadow: 1px 3px 3px 3px;
+}
+.picture:hover {
+    border: 2px solid yellow;
+    box-shadow:
+        1px 3px 10px 1px white,
+        -1px 3px 10px 1px white,
+        1px -3px 10px 1px white,
+        -1px -3px 10px 1px white;
+}

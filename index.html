@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET | Specific Breed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="breed-form">
+        <fieldset>
+            <legend>Dog Generator</legend>
+            <label for="breed">What kind of dog?</label>
+            <input type="text" id="breed" name="breed" required>
+            
+            <button type="submit">GIMME DOGS!</button>
+        </fieldset>
+    </form>
+    <div class="results hidden"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
